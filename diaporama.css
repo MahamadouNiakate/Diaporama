@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.diaporama1 {
+  margin: 0 auto;
+  width: 960px;
+  height: 500px;
+  border: 3px solid #333;
+  background-image: url("image/desert.jpg");
+  background-size: 960px 500px;
+
+  animation-name: diapo1;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes diapo1 {
+  0% {
+    background-image: url("image/desert.jpg");
+  }
+  33% {
+    background-image: url("image/ruiseau.jpg");
+  }
+  66% {
+    background-image: url("image/plage.jpg");
+  }
+}
+
+.diaporama2 {
+  margin: 0 auto;
+  width: 960px;
+  height: 500px;
+  border: 3px solid #333;
+  background-image: url("/Users/mahamadouniakate/Desktop/project/diaporama/image/ruiseau.jpg");
+  background-size: 960px 500px;
+
+  animation-name: diapo2;
+  animation-duration: 16s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes diapo2 {
+  0% {
+    background-position: 0px 0px;
+    background-image: url("image/desert.jpg");
+  }
+  2% {
+    background-position: 0px 0px;
+    background-image: url("image/desert.jpg");
+  }
+  31% {
+    background-position: -960px 0px;
+    background-image: url("image/ruiseau.jpg");
+  }
+  35% {
+    background-position: -960px 0px;
+    background-image: url("image/ruiseau.jpg");
+  }
+  64% {
+    background-position: -1920px 0px;
+    background-image: url("image/plage.jpg");
+  }
+  68% {
+    background-position: -1920px 0px;
+    background-image: url("image/plage.jpg");
+  }
+  98% {
+    background-position: -2880px 0px;
+  }
+  100% {
+    background-position: -2880px 0px;
+  }
+}
