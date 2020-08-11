@@ -40,7 +40,7 @@ body {
   background-size: 960px 500px;
 
   animation-name: diapo2;
-  animation-duration: 30s;
+  animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -73,10 +73,8 @@ body {
   }
   98% {
     background-position: -2880px 0px;
-    background-image: url("image/desert.jpg")
   }
   100% {
     background-position: -3800px 0px;
-    background-image: url("image/desert.jpg");
   }
 }
