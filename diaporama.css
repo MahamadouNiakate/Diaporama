@@ -73,9 +73,10 @@ body {
   }
   98% {
     background-position: -2880px 0px;
+    background-image: url("image/desert.jpg")
   }
   100% {
-    background-position: 0px 0px;
+    background-position: -3800px 0px;
     background-image: url("image/desert.jpg");
   }
 }
